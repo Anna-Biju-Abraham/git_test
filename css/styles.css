@@ -1,0 +1,41 @@
+.heading{
+    color: white;
+    background-color: rgb(45, 9, 9);
+    padding: 50px, 50px;
+    text-align: center;
+    
+}
+
+.nav{
+    
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        background-color:pink;
+        text-align: left;
+      
+}
+.nav li 
+{
+    display: inline;
+    margin-right: 10px;
+}
+li a  {
+    display: block;
+    padding: 14px 16px;
+  }
+.main{
+    background-color: white;
+    color: black;
+    
+}
+.side{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   
+}
+*
+{
+    margin: 0px;
+}
